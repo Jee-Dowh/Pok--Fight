@@ -1,0 +1,17 @@
+.row {
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.display-on-hover {
+  display: block;
+}
+.display-on-hover {
+  display: none;
+}
