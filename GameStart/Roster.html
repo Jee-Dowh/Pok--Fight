@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>PokéFight</title>
+    <link rel="stylesheet" href="./Roster.css" />
+  </head>
+
+  <body>
+    <h1>Choose your roster</h1>
+    <div class="row">
+      <div class="column">
+        <div class="container">
+          <div class="card">
+            <img
+              src="https://www.pokepedia.fr/images/thumb/7/76/Pikachu-DEPS.png/922px-Pikachu-DEPS.png?20220418180124"
+              style="width: 200px"
+            />
+
+            <div class="information" id="PikachuInfos">
+              <h2 class="headline">PIKACHU</h2>
+              <p>attaque : 60</p>
+              <p>défense : 10</p>
+              <p>vitesse : 70</p>
+              <p class="type">
+                Type:
+                <button class="buttonInfo" id="electrique">Eléctrique</button>
+              </p>
+              <p class="attaques">
+                Type: <button class="buttonInfo" id="charge">Charge</button>
+                <button class="buttonInfo" id="tonnerre">Tonnerre</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button id="Pikachu">Séléctionner</button>
+      </div>
+      <div class="column">
+        <div class="container">
+          <div class="card">
+            <img
+              src="https://www.pokepedia.fr/images/thumb/8/89/Salam%C3%A8che-RFVF.png/795px-Salam%C3%A8che-RFVF.png?20141019213025"
+              style="width: 200px"
+            />
+
+            <div class="information" id="salamecheInfos">
+              <h2 class="headline">SALAMECHE</h2>
+              <p>attaque : 90</p>
+              <p>défense : 20</p>
+              <p>vitesse : 30</p>
+              <p class="type">
+                Type:
+                <button class="buttonInfo" id="feu">Feu</button>
+              </p>
+              <p class="attaques">
+                Type: <button class="buttonInfo" id="morsure">Morsure</button>
+                <button class="buttonInfo" id="lanceFlamme">
+                  Lance Flamme
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button id="Salamèche">Séléctionner</button>
+      </div>
+      <div class="column">
+        <div class="container">
+          <div class="card">
+            <img
+              src="https://www.pokepedia.fr/images/thumb/c/cc/Carapuce-RFVF.png/870px-Carapuce-RFVF.png?20141016142207"
+              style="width: 200px"
+            />
+
+            <div class="information" id="carapuceInfos">
+              <h2 class="headline">CARAPUCE</h2>
+              <p>attaque : 70</p>
+              <p>défense : 30</p>
+              <p>vitesse : 50</p>
+              <p class="type">
+                Type:
+                <button class="buttonInfo" id="eau">Eau</button>
+              </p>
+              <p class="attaques">
+                Type:
+                <button class="buttonInfo" id="coupDeQueue">
+                  coup de queue
+                </button>
+                <button class="buttonInfo" id="bulleDEau">bulle d'eau</button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button id="Carapuce">Séléctionner</button>
+      </div>
+      <div class="column">
+        <div class="container">
+          <div class="card">
+            <img
+              src="https://www.pokepedia.fr/images/e/ef/Bulbizarre-RFVF.png?20141212043325"
+              style="width: 200px"
+            />
+            <div class="information" id="bulbizarreInfos">
+              <h2 class="headline">BULBIZARRE</h2>
+              <p>attaque : 80</p>
+              <p>défense : 50</p>
+              <p>vitesse : 20</p>
+              <p class="type">
+                Type:
+                <button class="buttonInfo" id="plante">Plante</button>
+              </p>
+              <p class="attaques">
+                Type: <button class="buttonInfo" id="fouet">fouet</button>
+                <button class="buttonInfo" id="tempeteVerte">
+                  tempête verte
+                </button>
+              </p>
+            </div>
+          </div>
+        </div>
+        <button id="Carapuce">Séléctionner</button>
+      </div>
+    </div>
+    <div>
+      <a href="combat.html">
+        <button id="fight">FIGHT</button>
+      </a>
+    </div>
+    <script type="module" src="Ennemy.js"></script>
+    <script type="module" src="Roster.js"></script>
+  </body>
+</html>

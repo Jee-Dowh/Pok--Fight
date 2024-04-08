@@ -1,0 +1,172 @@
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  background-image: url("https://i.redd.it/dnlz6c3xni951.jpg");
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 20px;
+  position: relative;
+  left: 600px;
+}
+
+h2 {
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+.container {
+  width: 20%;
+  min-width: 200px;
+  max-width: 250px;
+  height: 280px;
+  float: left;
+  margin: 0 10px;
+}
+
+.card {
+  background-color: transparent;
+  align-self: center;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+.information {
+  background-color: white;
+  width: 200px;
+  height: 250px;
+  top: 0;
+  left: 0;
+  align-self: center;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0px 0px 12px -1px black;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  z-index: 2;
+  opacity: 0;
+  transition-duration: 0.5 s;
+}
+
+#Pikachu {
+  background-color: whitesmoke;
+  border: 4px solid whitesmoke;
+  color: black;
+  height: auto;
+  text-align: center;
+  font-size: 12px;
+  align-items: center;
+}
+
+.attaques,
+.type {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#electrique,
+#tonnerre {
+  background-color: #ffc901;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#feu,
+#lanceFlamme {
+  background-color: #fb5c12;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#eau,
+#bulleDEau {
+  background-color: rgb(31, 169, 255);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#plante,
+#tempeteVerte {
+  background-color: rgb(173, 250, 78);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#charge,
+#morsure,
+#fouet,
+#coupDeQueue {
+  background-color: rgb(155, 155, 155);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+p {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 10pt;
+  text-align: center;
+}
+
+.buttonInfo {
+  height: auto;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 10pt;
+  text-align: center;
+}
+
+/*display card when hover on the pokemon*/
+.information:hover {
+  opacity: 1;
+}
+
+.card:hover .information {
+  opacity: 1;
+}
+.card:active,
+.active {
+  border: 4px solid #ffc901;
+}
+
+#fight {
+  background-color: transparent;
+  border: 4px solid whitesmoke;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 20px;
+  justify-content: center;
+  position: relative;
+  top: 680px;
+  right: 50%;
+}
+
+#fight:hover {
+  background-color: black;
+  transition: 0.5s;
+}
